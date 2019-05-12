@@ -1,7 +1,7 @@
 import {EventEmitter, Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {MainService} from './main.service';
-import {IAuthResponse, ICategory, IOrder, IProduct} from '../models/models';
+import {IAuthResponse, ICategory, IDeliveryMethod, IOrder, IProduct, ISuppliers} from '../models/models';
 
 @Injectable({
   providedIn: 'root'
@@ -68,10 +68,24 @@ export class ProviderService extends MainService {
   getOrders(): Promise<IOrder[]> {
     return this.get(`http://localhost:8000/shop/orders/`, {});
   }
-  createOrder(items: number[]): Promise<any> {
+  createOrder(items: number[], isOrder: boolean, supId: number, deliveryMethod: number): Promise<any> {
     return this.post(`http://localhost:8000/shop/orders/`, {
-      items
+      items,
+      isOrder,
+      supId: supId,
+      deliveryMethod: deliveryMethod
     });
+  }
+  getOrder(id: number) {
+    return this.get(`http://localhost:8000/shop/orders/${id}/`, {})
+  }
+
+  getSuppliers(): Promise<ISuppliers[]> {
+    return this.get(`http://localhost:8000/shop/suppliers/`, {})
+  }
+
+  getDeliveryMethod(): Promise<IDeliveryMethod[]> {
+    return this.get(`http://localhost:8000/shop/deliverymethod/`, {})
   }
 
   auth(login: any, password: any): Promise<IAuthResponse> {

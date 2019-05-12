@@ -47,7 +47,7 @@ class OrdersSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Orders
-        fields = ('id', 'orderDate', 'shipDate', 'arriveDate', 'user', 'items', 'isOrder')
+        fields = ('id', 'orderDate', 'shipDate', 'arriveDate', 'user', 'items', 'isOrder', 'supId', 'deliveryMethod')
 
     def create(self, validated_data):
         items = validated_data.pop('items')
@@ -75,7 +75,7 @@ class SuppliersSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Suppliers
-        fields = ('id', 'supName', 'address', 'phoneNum', 'deliveryMethod', 'city')
+        fields = ('id', 'supName', 'address', 'phoneNum', 'city')
 
 
 class TransactionsSerializer(serializers.ModelSerializer):
@@ -85,6 +85,13 @@ class TransactionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Transactions
         fields = ('id', 'orderId', 'cost', 'isOrder')
+
+
+class DeliveryMethodSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = DeliveryMethod
+        fields = '__all__'
 
 
 class InventorySerializer(serializers.ModelSerializer):

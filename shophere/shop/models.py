@@ -93,7 +93,7 @@ class Orders(models.Model):
     orderDate = models.DateTimeField(auto_now=True)
     shipDate = models.DateTimeField(default=default_time)
     deliveryMethod = models.ForeignKey(DeliveryMethod, on_delete=models.SET_NULL, null=True)
-    arriveDate = models.DateTimeField(default=arrivedate, null=True)
+    arriveDate = models.DateTimeField(default=arrivedate)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     items = models.ManyToManyField(Product)
     isOrder = models.BooleanField(default=False)

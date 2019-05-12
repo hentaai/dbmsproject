@@ -22,6 +22,7 @@ export interface IOrder {
   arriveDate: Date;
   user: number;
   items: number[];
+  supId: number;
   isOrder: boolean;
   deliveryMethod: number;
 }
@@ -49,8 +50,12 @@ export interface IInventory {
 
 export interface IAuthResponse {
   token: string;
-  isStaff: boolean;
+  is_staff: boolean;
   username: string;
 }
 
-
+export interface IDeliveryMethod {
+  id: number;
+  methodDescription: string;
+  avgDeliveryDays: number;
+}

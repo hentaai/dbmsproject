@@ -4,16 +4,16 @@
     <input type="password" [(ngModel)]="password">
     <button (click)="auth()">LOG IN</button>
     <br>
-    <input type="text" [(ngModel)]="username">
+    <input type="text" [(ngModel)]="signupname">
     <input type="text" [(ngModel)]="email">
-    <input type="password" [(ngModel)]="password">
+    <input type="password" [(ngModel)]="signuppassword">
     <button (click)="signup()">SIGN UP</button>
   </ng-container>
 
   <ng-container *ngIf="logged">
     <h4>HI {{loggedUsername}}</h4>
     <div>
-      <div routerLink="/orders/">ORDERS</div>
+      <button routerLink="/cart/">CART</button>
     </div>
     <div>
       <button (click)="logout()">LOG OUT</button>
@@ -21,6 +21,9 @@
 
     <div>
       <ng-container *ngIf="isStaff">
+        <div>
+          <button routerLink="/orders/">ORDERS</button>
+        </div>
       CREATE CATEGORY
         <div>
           <input type="text" [(ngModel)]="name">
@@ -32,9 +35,8 @@
   </ng-container>
 
 </div>
+
 <div>
-
-
   CATEGORIES:
   <div>
     <div *ngFor="let c of categories">

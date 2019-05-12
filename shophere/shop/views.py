@@ -65,3 +65,29 @@ class OrdersGetCreate(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
+
+
+class SuppliersGet(generics.ListAPIView):
+    serializer_class = SuppliersSerializer
+    permission_classes = (IsAdminUser, )
+
+    def get_queryset(self):
+        return Suppliers.objects.all()
+
+
+class DeliveryMethodsGet(generics.ListAPIView):
+    serializer_class = DeliveryMethodSerializer
+    permission_classes = (IsAuthenticated, )
+
+    def get_queryset(self):
+        return DeliveryMethod.objects.all()
+
+
+class OrderRetrieve(generics.RetrieveAPIView):
+    serializer_class = OrdersSerializer
+    permission_classes = (IsAdminUser, )
+
+    def get_queryset(self):
+        print(Orders.objects.filter(id=self.kwargs['pk']))
+        queryset = Orders.objects.filter(id=self.kwargs['pk'])
+        return queryset
