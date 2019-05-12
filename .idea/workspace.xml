@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e355a61a-6e46-41b0-afa4-043718c5e088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/AuthInterceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/cart/cart.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/cart/cart.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/cart/cart.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/cart/cart.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/categories/categories.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/categories/categories.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/categories/categories.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/categories/categories.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/main/main.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/main/main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/main/main.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/main/main.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/orders/orders.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/orders/orders.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/orders/orders.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/orders/orders.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/products/products.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/products/products.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/products/products.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/products/products.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/shared/models/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/shared/services/main.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/shared/services/main.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/shared/services/provider.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/shared/services/provider.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/.idea/shophere.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/cat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/cat3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod1_8GeUhOm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod1_CgUqCbI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod1_gbsQQ9q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/media/prod6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/requirements.txtx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0002_auto_20190512_0749.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0003_remove_suppliers_deliverymethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0004_auto_20190512_0759.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0005_auto_20190512_0811.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0006_auto_20190512_0826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0007_auto_20190512_0854.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0008_auto_20190512_0935.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0009_auto_20190512_0942.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0010_auto_20190512_1010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0011_auto_20190512_1014.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0012_auto_20190512_1016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0013_transactions_isorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/0014_orders_supid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shop/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shophere/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shophere/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shophere/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shophere/shophere/wsgi.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/src/app/shared/services/provider.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/shared/models/models.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shophere/shop/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shophere/shophere/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shophere/shop/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/categories/categories.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/cart/cart.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/orders/orders.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/orders/orders.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/categories/categories.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userID</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shophere/shop/models.py" />
+        <option value="$PROJECT_DIR$/front/src/app/shared/models/models.ts" />
+        <option value="$PROJECT_DIR$/front/src/app/main/main.component.ts" />
+        <option value="$PROJECT_DIR$/front/src/app/main/main.component.html" />
+        <option value="$PROJECT_DIR$/front/src/app/orders/orders.component.html" />
+        <option value="$PROJECT_DIR$/shophere/shop/serializers.py" />
+        <option value="$PROJECT_DIR$/shophere/shophere/settings.py" />
+        <option value="$PROJECT_DIR$/front/src/app/shared/services/provider.service.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="shophere" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="shophere" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="shophere" type="462c0819:PsiDirectoryNode" />
+              <item name="shophere" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Users\emfor\Desktop\project\front\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e355a61a-6e46-41b0-afa4-043718c5e088" name="Default Changelist" comment="" />
+      <created>1557621293255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557621293255</updated>
+      <workItem from="1557621297714" duration="18000" />
+      <workItem from="1557641120105" duration="4121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4139000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shophere/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/shared/services/provider.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/shared/services/main.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/main/main.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="12" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/main/main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/categories/categories.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/categories/categories.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/cart/cart.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/orders/orders.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/orders/orders.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/shared/models/models.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shophere/shop/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shophere/shophere/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shophere/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/shared/services/provider.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
